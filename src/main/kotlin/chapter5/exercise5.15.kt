@@ -6,7 +6,7 @@ fun <A> Stream<A>.tails(): Stream<Stream<A>> =
             is Stream.Cons -> Pair(it, it.t())
             Stream.Empty -> null
         }
-    }.append { Stream.cons({ Stream.empty() }, { Stream.empty() }) }
+    }.append { Stream.cons({ Stream.empty<A>() }, { Stream.empty() }) }
 
 fun main() {
     val s = listOf(1, 2, 3, 4, 5, 10).toStream()
