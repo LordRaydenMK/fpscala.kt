@@ -4,3 +4,4 @@ Solutions for the exercises from [Functional Programming in Scala](https://www.m
 * Chapter 3 - [Data structures](/src/main/kotlin/chapter3)
 * Chapter 4 - [Error handling](/src/main/kotlin/chapter4)
 * Chapter 5 - [Laziness](/src/main/kotlin/chapter5) using nullable types instead of Option
+* Chapter 6 - [Purely functional state](/src/main/kotlin/chapter6)
